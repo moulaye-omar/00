@@ -3,7 +3,7 @@
 echo -n "Entrez le nom du fichier : " 
 read filename
 #rechercher le fichier et envoyer une reponse
-if [ -f "$filename" ]; then
+if [ -f $filename ]; then
 	echo "Le fichier '$filename' existe"
  else
  	echo "Le fichier '$filename' n'existe pas"
