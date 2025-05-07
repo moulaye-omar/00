@@ -2,7 +2,7 @@
 #recupere le nom du fichier
 read -p "entrez le nom du fichier : " filename
 #rechercher le fichier et envoyer une reponse
-if [ -f "$filename" ]; then
+if [ -f $filename ]; then
 	echo "Le fichier '$filename' existe"
 else
 	echo "Le fichier '$filename' n'existe pas"
