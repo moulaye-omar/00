@@ -1,11 +1,8 @@
 #!/bin/bash
-#recupere le nom du fichier
-#echo -n "Entrez le nom du fichier : " 
-#read -r filename
-read -p "Entrez le nom du fichier : " filename
-#rechercher le fichier et envoyer une reponse
-if [ -f "$filename"]; then
+echo -n "Entrez le nom du fichier : "
+read filename
+if [ -f "$filename" ]; then
     echo "Le fichier '$filename' existe."
- else
-    echo "Le fichier '$filename' n'existe pas."
+else
+    echo "Le fichier '$filename' m'existe pas."
 fi
