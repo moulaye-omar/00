@@ -1,3 +1,3 @@
 #!/bin/bash
 #creation d'une repertoire "test_direction"
-mkdir -p test_directory
+mkdr -p test_directory
