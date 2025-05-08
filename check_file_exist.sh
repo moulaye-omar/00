@@ -1,6 +1,6 @@
 #!/bin/bash
 #recupere le nom du fichier
-echo -n "Entrez le nom du fichier : " 
+echo -n "Entrez le nom du fichier :" 
 read -r filename
 #rechercher le fichier et envoyer une reponse
 if [ -f "$filename"]; then
